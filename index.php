@@ -6,6 +6,8 @@ $dbname = "trucorp_db";
 
 //CREDIT : W3 School.
 
+
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
