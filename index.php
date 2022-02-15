@@ -3,7 +3,7 @@ $servername = "172.19.0.2";
 $username = "root";
 $password = "password";
 $dbname = "trucorp_db";
-
+$karyawan = 0;
 //CREDIT : W3 School.
 
 
@@ -21,6 +21,9 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
+    echo "Jumlah karyawan: "
+    $karyawan ++;
+    echo $karyawan;
     echo "id: " . $row["id"]. " - Nama: " . $row["nama"]. " - Alamat: " . $row["alamat"]. " - Jabatan: " . $row["jabatan"]. "<br>";
   }
 } else {
