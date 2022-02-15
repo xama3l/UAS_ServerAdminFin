@@ -24,7 +24,6 @@ if ($result->num_rows > 0) {
     echo "Jumlah karyawan: "
     $karyawan ++;
     echo $karyawan;
-    echo "id: " . $row["id"]. " - Nama: " . $row["nama"]. " - Alamat: " . $row["alamat"]. " - Jabatan: " . $row["jabatan"]. "<br>";
   }
 } else {
   echo "0 results";
